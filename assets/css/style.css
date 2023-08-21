@@ -402,7 +402,8 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: var(--color-bg);
+  background-color: var(--color-bg);
+  
 }
 
 #hero .container {
@@ -910,7 +911,9 @@ section {
 .services .icon-box:hover h4 a {
   color: #4fc08b;
 }
-
+.mh:hover{
+  transform: translateY(-10px);
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -2102,5 +2105,20 @@ section {
   opacity: 1;
 }
 .rform{
-  color: var(--color-4);
+  color: var(--color-4)!important;
+}
+.modal-content{
+  background-color: var(--color-bg);
+}
+.modal-header{
+  border-bottom: none!important;
+}
+.b24-form-wrapper{
+  background-color: var(--color-bg)!important;
+
+}
+.b24-form-control-container{
+
+  background-color: #fff!important;
+
 }
