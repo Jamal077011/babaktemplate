@@ -58,13 +58,13 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center" style="background-image: url('assets/img/6.png'); background-repeat: no-repeat;" >
+  <section id="hero" class="d-flex align-items-center" style="background-image: url('assets/img/7-03.jpg'); background-repeat: no-repeat;" >
 
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>All your Company Requirements in one place.</h1>
-          <h6>A new door to the future that BABAK open it
+          <h6 class="my-4">A new door to the future that BABAK open it
 for you to preparing everything your company needs
 anywhere in the United Arab Emirates.
 A full team of experts always helps you
@@ -629,12 +629,14 @@ Electronic Wallet.
        body.classList.toggle("dark-theme");
 
       let button = document.getElementById('mode');
-       
+      let hero = document.getElementById('hero');
        // change the button text
        if (button.innerHTML == '<i class="fa-regular fa-moon fa-xl" style="margin-left: 25px; color: #27B06F;"></i>') {
           button.innerHTML = '<i class="fa-regular fa-sun fa-xl" style="margin-left: 25px; color: #27B06F;"></i>';
+          hero.style = 'background-image: url("assets/img/9-01.jpg"); background-repeat: no-repeat;'
        } else {
           button.innerHTML = '<i class="fa-regular fa-moon fa-xl" style="margin-left: 25px; color: #27B06F;"></i>';
+          hero.style = 'background-image: url("assets/img/7-03.jpg"); background-repeat: no-repeat;'
        }
     }
  </script>
