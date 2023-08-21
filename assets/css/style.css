@@ -2105,5 +2105,5 @@ section {
   color: var(--color-4);
 }
 #loom-companion-mv3{
-  display: none;
+  display: none!important;
 }
